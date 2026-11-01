@@ -1,0 +1,7 @@
+jiwer
+numpy
+openai
+soundfile
+torch
+tqdm
+transformers

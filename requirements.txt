@@ -3,5 +3,6 @@ numpy
 openai
 soundfile
 torch
+torchaudio
 tqdm
 transformers

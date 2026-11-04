@@ -3,7 +3,13 @@
 .venv/
 __pycache__/
 artifacts/
+audio_tmp/
 *.wav
+*.webm
+*.mp4
 *.zip
 data/*.json
 !data/README.md
+*serviceAccount*.json
+*-firebase-adminsdk-*.json
+credentials.json

@@ -15,3 +15,15 @@ Expected minimal structure:
   "bororo_term": "Portuguese gloss"
 }
 ```
+
+The generator also accepts richer records such as:
+
+```json
+{
+  "bororo_term": {
+    "desc": "Portuguese gloss",
+    "token_list": [],
+    "sent_list": []
+  }
+}
+```

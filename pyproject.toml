@@ -1,0 +1,27 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "bilingo-speech"
+version = "0.1.0"
+description = "Experimental speech synthesis and recognition tools for Bororo."
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+  "jiwer",
+  "numpy",
+  "openai",
+  "soundfile",
+  "torch",
+  "torchaudio",
+  "tqdm",
+  "transformers>=4.33",
+]
+
+[project.scripts]
+bilingo-generate = "bilingo.generate_dataset:main"
+bilingo-transcribe = "bilingo.transcribe:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
